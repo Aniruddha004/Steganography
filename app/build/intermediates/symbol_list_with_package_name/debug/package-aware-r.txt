@@ -471,6 +471,7 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen big_text_dim
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -487,6 +488,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen medium_text_dim
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -502,6 +504,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen small_text_dim
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -681,6 +684,9 @@ id add
 id alertTitle
 id always
 id async
+id bAMDecrypt
+id bAMEncrypt
+id bPerformSteg
 id beginning
 id blocking
 id bottom
@@ -700,6 +706,7 @@ id dialog_button
 id disableHome
 id edit_query
 id end
+id etSecretMessage
 id expand_activities_button
 id expanded_menu
 id forever
@@ -712,6 +719,8 @@ id ifRoom
 id image
 id info
 id italic
+id ivCoverImage
+id ivSecretImage
 id line1
 id line3
 id listMode
@@ -731,6 +740,9 @@ id parentPanel
 id progress_circular
 id progress_horizontal
 id radio
+id rbImage
+id rbText
+id rgSecretMessageType
 id right_icon
 id right_side
 id screen
@@ -776,6 +788,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id unchecked
@@ -824,6 +837,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_encrypt
 layout activity_main
 layout custom_dialog
 layout notification_action
@@ -865,7 +879,14 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string b_secret_text_decrypt
+string b_secret_text_encrypt
+string et_secret_text
+string rb_secret_image
+string rb_secret_text
 string search_menu_title
+string secret_message_title
+string select_image_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

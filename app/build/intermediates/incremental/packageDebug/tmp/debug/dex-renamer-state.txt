@@ -1,4 +1,4 @@
-#Sat Aug 01 20:54:47 IST 2020
-base.0=C\:\\Users\\DELL\\Downloads\\steganography\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Aug 01 21:55:42 IST 2020
+base.0=C\:\\Users\\DELL\\Downloads\\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
