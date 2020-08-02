@@ -6,13 +6,12 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5d9a81-777b-4602-9ad0-ea4c527c04c7" name="Default Changelist" comment="" />
+    <list default="true" id="07ba76a0-5998-44a3-abfd-23119c784f83" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="PL2GAMG841715781" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,7 +24,7 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1fVJ8hVKTcJgSrBX2fT3JUo218Y" />
+  <component name="ProjectId" id="1fXU4HVZXZfVpAPSew0c8JZjps2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -44,8 +43,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15-app" />
+    <configuration name="steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9-app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -101,18 +100,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d5d9a81-777b-4602-9ad0-ea4c527c04c7" name="Default Changelist" comment="" />
-      <created>1596297173756</created>
+      <changelist id="07ba76a0-5998-44a3-abfd-23119c784f83" name="Default Changelist" comment="" />
+      <created>1596363742098</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596297173756</updated>
+      <updated>1596363742098</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596297188461">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596363757317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596297188461" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596363757301" />
   </component>
 </project>
