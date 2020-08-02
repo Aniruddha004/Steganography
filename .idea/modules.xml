@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cryptomessenger.iml" filepath="$PROJECT_DIR$/cryptomessenger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9.iml" filepath="$PROJECT_DIR$/.idea/modules/steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9.iml" group="steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9-app.iml" group="steganographer-6cad5c71e77b4cd82f9d7b767434ee50d7f056d9/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e.iml" filepath="$PROJECT_DIR$/.idea/modules/steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e.iml" group="steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e-app.iml" group="steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e/app" />
     </modules>
   </component>
 </project>
