@@ -1,14 +1,24 @@
 package com.example.steganography;
 
 import android.content.Intent;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.example.steganography.encrypt.EncryptActivity;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    ButterKnife.bind(this);
+  }
 
   @OnClick(R.id.bAMEncrypt)
   public void onClickEncrypt() {
@@ -21,11 +31,4 @@ public class MainActivity extends AppCompatActivity {
     //Start DecryptActivity
   }
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-
-    ButterKnife.bind(this);
-  }
 }
