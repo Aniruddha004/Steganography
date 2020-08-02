@@ -1,52 +1,43 @@
 package com.example.steganography.encrypt;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.provider.MediaStore;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 
-import com.example.steganography.utils.Constants;
-import com.example.steganography.utils.StandardMethods;
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
+
 import com.example.steganography.R;
+import com.example.steganography.utils.Constants;
+import com.example.steganography.utils.StandardMethods;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
 
 public class EncryptActivity extends AppCompatActivity implements EncryptView {
-
-  ProgressDialog progressDialog;
-  EncryptPresenter mPresenter;
-
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_encrypt);
-
-    ButterKnife.bind(this);
-
-    initToolbar();
-
-    progressDialog = new ProgressDialog(EncryptActivity.this);
-    progressDialog.setMessage("Please wait...");
-
-    mPresenter = new EncryptPresenterImpl(this);
-  }
 
   @BindView(R.id.etSecretMessage)
   EditText etSecretMessage;
@@ -72,11 +63,11 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
   }
 
   @OnClick({R.id.ivCoverImage, R.id.ivSecretImage})
-  public void onCoverSecretImageClick() {
+  public void onCoverSecretImageClick(View view) {
 
     final CharSequence[] items = {
-            getString(R.string.take_image_dialog),
-            getString(R.string.select_image_dialog)
+      getString(R.string.take_image_dialog),
+      getString(R.string.select_image_dialog)
     };
 
     AlertDialog.Builder builder = new AlertDialog.Builder(EncryptActivity.this);
@@ -88,28 +79,28 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
         if (items[item].equals(getString(R.string.take_image_dialog))) {
 
           if (ContextCompat.checkSelfPermission(getApplicationContext(),
-                  Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED ||
-                  ContextCompat.checkSelfPermission(getApplicationContext(),
-                          Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED ||
+            ContextCompat.checkSelfPermission(getApplicationContext(),
+              Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(EncryptActivity.this,
-                    new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                    Constants.PERMISSIONS_CAMERA);
+              new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE},
+              Constants.PERMISSIONS_CAMERA);
 
           } else {
-            //openCamera();
+            openCamera();
           }
-        } else if(items[item].equals(getString(R.string.select_image_dialog))) {
+        } else if (items[item].equals(getString(R.string.select_image_dialog))) {
 
-          if(ContextCompat.checkSelfPermission(getApplicationContext(),
-                  Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+          if (ContextCompat.checkSelfPermission(getApplicationContext(),
+            Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(EncryptActivity.this,
-                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                    Constants.PERMISSIONS_EXTERNAL_STORAGE);
+              new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+              Constants.PERMISSIONS_EXTERNAL_STORAGE);
 
           } else {
-            //chooseImage()
+            chooseImage();
           }
         }
       }
@@ -122,9 +113,33 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
       }
     });
 
+    if (view.getId() == R.id.ivCoverImage) {
+      whichImage = Constants.COVER_IMAGE;
+    } else if (view.getId() == R.id.ivSecretImage) {
+      whichImage = Constants.SECRET_IMAGE;
+    }
+
     builder.show();
   }
 
+  ProgressDialog progressDialog;
+  EncryptPresenter mPresenter;
+  int whichImage = -1;
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_encrypt);
+
+    ButterKnife.bind(this);
+
+    initToolbar();
+
+    progressDialog = new ProgressDialog(EncryptActivity.this);
+    progressDialog.setMessage("Please wait...");
+
+    mPresenter = new EncryptPresenterImpl(this);
+  }
 
   @Override
   public void initToolbar() {
@@ -135,6 +150,79 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
     if (actionBar != null) {
       actionBar.setDisplayHomeAsUpEnabled(true);
     }
+  }
+
+  @Override
+  public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+    switch (requestCode) {
+      case Constants.PERMISSIONS_CAMERA:
+        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED &&
+          grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+          openCamera();
+        }
+        break;
+      case Constants.PERMISSIONS_EXTERNAL_STORAGE:
+        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+          chooseImage();
+        }
+        break;
+    }
+  }
+
+  @Override
+  public void openCamera() {
+    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+    File file = new File(android.os.Environment
+      .getExternalStorageDirectory(), "temp.jpg");
+
+    Uri imageUri = FileProvider.getUriForFile(this, "alexparunov", file);
+
+    intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+    startActivityForResult(intent, Constants.REQUEST_CAMERA);
+  }
+
+  @Override
+  public void chooseImage() {
+    Intent intent = new Intent(
+      Intent.ACTION_PICK,
+      android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+    intent.setType("image/*");
+    startActivityForResult(
+      Intent.createChooser(intent, getString(R.string.choose_image)),
+      Constants.SELECT_FILE);
+  }
+
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
+
+    if (resultCode == RESULT_OK) {
+      if (requestCode == Constants.REQUEST_CAMERA) {
+        if (whichImage == Constants.COVER_IMAGE) {
+          mPresenter.selectCoverImageCamera();
+        } else if (whichImage == Constants.SECRET_IMAGE) {
+          mPresenter.selectSecretImageCamera();
+        }
+      } else if (requestCode == Constants.SELECT_FILE) {
+        Uri selectedImageUri = data.getData();
+        String tempPath = getPath(selectedImageUri, EncryptActivity.this);
+        if (whichImage == Constants.COVER_IMAGE) {
+          mPresenter.selectCoverImage(tempPath);
+        } else if (whichImage == Constants.SECRET_IMAGE) {
+          mPresenter.selectSecretImage(tempPath);
+        }
+      }
+    }
+  }
+
+  public String getPath(Uri uri, Activity activity) {
+    String[] projection = {MediaStore.MediaColumns.DATA};
+    Cursor cursor = activity.managedQuery(uri, projection, null, null, null);
+    int column_index = cursor.getColumnIndexOrThrow(MediaStore.MediaColumns.DATA);
+    cursor.moveToFirst();
+    return cursor.getString(column_index);
   }
 
   @Override

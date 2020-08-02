@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deac27ff-5b72-4d83-8d42-201562f035e1" name="Default Changelist" comment="" />
+    <list default="true" id="c509e4ae-cf90-4780-934b-1a28e2c72bef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1fXYjfVOeGNC86GXi3tDmZkX5k0" />
+  <component name="ProjectId" id="1fXgNAXaaNDpBEM0USKn4hG02If" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -43,8 +43,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e-app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="steganographer-14fb751c176492ec0117601cfa3809f07e77ad3e-app" />
+    <configuration name="steganographer-d28441a1e48e1c9bafa7b0499a3c3badcd4d3ce4-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="steganographer-d28441a1e48e1c9bafa7b0499a3c3badcd4d3ce4-app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -100,12 +100,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="deac27ff-5b72-4d83-8d42-201562f035e1" name="Default Changelist" comment="" />
-      <created>1596366041349</created>
+      <changelist id="c509e4ae-cf90-4780-934b-1a28e2c72bef" name="Default Changelist" comment="" />
+      <created>1596369808617</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596366041349</updated>
+      <updated>1596369808617</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596370010075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596370010075" />
   </component>
 </project>
