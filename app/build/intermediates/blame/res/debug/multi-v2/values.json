@@ -1,44 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "2",
-                        "startOffsets": "50",
-                        "endLines": "8",
-                        "endColumns": "10",
-                        "endOffsets": "344"
-                    },
-                    "to": {
-                        "startLines": "308",
-                        "startColumns": "4",
-                        "startOffsets": "20039",
-                        "endLines": "313",
-                        "endColumns": "10",
-                        "endOffsets": "20333"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "2,2,2",
-                        "startOffsets": "147,53,98",
-                        "endColumns": "43,44,48",
-                        "endOffsets": "188,95,144"
-                    },
-                    "to": {
-                        "startLines": "27,28,29",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1879,1925,1972",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "1920,1967,2018"
-                    }
-                },
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\76f2b6439d16df60df3177021482ee5a\\core-1.1.0\\res\\values\\values.xml",
                     "from": {
@@ -59,20 +23,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2,3,8,11,7,6",
-                        "startColumns": "2,2,2,2,2,2",
-                        "startOffsets": "84,140,309,378,264,220",
-                        "endColumns": "55,53,41,49,44,43",
-                        "endOffsets": "137,191,348,425,306,261"
+                        "startLines": "4,2,3",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "147,53,98",
+                        "endColumns": "43,44,48",
+                        "endOffsets": "188,95,144"
                     },
                     "to": {
-                        "startLines": "152,153,154,171,172,188",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "10226,10284,10340,11656,11708,12733",
-                        "endColumns": "57,55,43,51,46,45",
-                        "endOffsets": "10279,10335,10379,11703,11750,12774"
+                        "startLines": "27,28,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1879,1925,1972",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "1920,1967,2018"
                     }
                 },
                 {
@@ -95,7 +59,43 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "2",
+                        "startOffsets": "50",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "308",
+                        "startColumns": "4",
+                        "startOffsets": "20039",
+                        "endLines": "313",
+                        "endColumns": "10",
+                        "endOffsets": "20333"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,8,11,7,6",
+                        "startColumns": "2,2,2,2,2,2",
+                        "startOffsets": "84,140,309,378,264,220",
+                        "endColumns": "55,53,41,49,44,43",
+                        "endOffsets": "137,191,348,425,306,261"
+                    },
+                    "to": {
+                        "startLines": "152,153,154,171,172,188",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "10226,10284,10340,11656,11708,12733",
+                        "endColumns": "57,55,43,51,46,45",
+                        "endOffsets": "10279,10335,10379,11703,11750,12774"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,9,8,13,14,19,18,17,10,7,6,5,12,4,11",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",

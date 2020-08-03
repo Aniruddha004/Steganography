@@ -1,34 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_encrypt.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\layout\\activity_encrypt.xml"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\xml\\provider_paths.xml"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_encrypt.xml.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\layout\\activity_encrypt.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]
