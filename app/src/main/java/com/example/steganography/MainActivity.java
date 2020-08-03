@@ -10,6 +10,14 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    ButterKnife.bind(this);
+  }
+
   @OnClick(R.id.bAMEncrypt)
   public void onClickEncrypt() {
     Intent intent = new Intent(MainActivity.this, EncryptActivity.class);
@@ -21,11 +29,4 @@ public class MainActivity extends AppCompatActivity {
     //Start DecryptActivity
   }
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-
-    ButterKnife.bind(this);
-  }
 }

@@ -169,6 +169,7 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="medium_image_square">150dp</dimen>
     <dimen name="medium_text_dim">18sp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
@@ -283,16 +284,23 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">CryptoMessenger</string>
+    <string name="app_name">Steganography App</string>
     <string name="b_secret_text_decrypt">Decrypt</string>
     <string name="b_secret_text_encrypt">Encrypt</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="compress_error">Failure during image compression</string>
+    <string name="encrypted_fail">Failure during message encryption</string>
+    <string name="encrypted_success">Message is successfully encrypted</string>
     <string name="et_secret_text">Message…</string>
     <string name="rb_secret_image">Image</string>
     <string name="rb_secret_text">Text</string>
     <string name="search_menu_title">Search</string>
     <string name="secret_message_title">Secret Message Type</string>
+    <string name="select_image_dialog">Select Image</string>
     <string name="select_image_title">Cover Image</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="take_image_dialog">Take Photo</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c509e4ae-cf90-4780-934b-1a28e2c72bef" name="Default Changelist" comment="" />
+    <list default="true" id="a7d20a4e-7ebe-4503-bd31-5b1ef754f00d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1fXgNAXaaNDpBEM0USKn4hG02If" />
+  <component name="ProjectId" id="1fa2bbnFb4cNyzqjwSWdxv8CIWd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -43,8 +43,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="steganographer-d28441a1e48e1c9bafa7b0499a3c3badcd4d3ce4-app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="steganographer-d28441a1e48e1c9bafa7b0499a3c3badcd4d3ce4-app" />
+    <configuration name="steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668-app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -100,18 +100,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c509e4ae-cf90-4780-934b-1a28e2c72bef" name="Default Changelist" comment="" />
-      <created>1596369808617</created>
+      <changelist id="a7d20a4e-7ebe-4503-bd31-5b1ef754f00d" name="Default Changelist" comment="" />
+      <created>1596441959166</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596369808617</updated>
+      <updated>1596441959166</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596370010075">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596441979799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596370010075" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596441979799" />
   </component>
 </project>

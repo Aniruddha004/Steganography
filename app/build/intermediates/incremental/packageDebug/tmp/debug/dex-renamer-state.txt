@@ -1,4 +1,4 @@
-#Sat Aug 01 21:55:42 IST 2020
-base.0=C\:\\Users\\DELL\\Downloads\\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Mon Aug 03 13:57:04 IST 2020
+base.0=C\:\\Users\\DELL\\Downloads\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

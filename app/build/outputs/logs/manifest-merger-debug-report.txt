@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\81b124271801b860f6767bd814ff748c\jetified-butterknife-8.8.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\12c076570219bdc2a11e9d0df335391a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -25,25 +25,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c6f1e76c078a7e4f5288325854cab247\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:3:11-46
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:3:11-46
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:5:3-62
+	android:name
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:5:20-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:6:3-78
+	android:name
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:6:20-76
 application
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:5:3-23:17
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:9:3-40:17
 MERGED from [androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\67aa86ef8808cac41aa5afe6d271f3ea\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -51,39 +59,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DE
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:9:7-33
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:13:7-33
 	android:label
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:12:7-39
 	android:icon
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:7:7-41
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:11:7-41
 	android:allowBackup
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:6:7-33
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:10:7-33
 	android:theme
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:10:7-38
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:14:7-38
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:17:5-25:16
+	android:grantUriPermissions
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:21:9-43
+	android:authorities
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:19:9-42
+	android:exported
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:18:9-58
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:22:7-24:51
+	android:resource
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:24:11-49
+	android:name
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:23:11-61
 activity#com.example.steganography.MainActivity
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:12:5-17:16
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:27:5-33:16
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:28:15-51
 	android:name
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:12:15-43
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:27:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:13:7-16:23
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:29:7-32:23
 action#android.intent.action.MAIN
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:14:9-60
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:30:9-60
 	android:name
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:14:17-58
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:30:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:15:9-68
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:31:9-68
 	android:name
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:15:19-66
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:31:19-66
 activity#com.example.steganography.encrypt.EncryptActivity
-ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:19:5-22:16
+ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:35:5-39:16
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:37:9-45
 	android:parentActivityName
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:21:9-51
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:38:9-51
 	android:name
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml:20:9-48
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml:36:9-48
 uses-sdk
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\81b124271801b860f6767bd814ff748c\jetified-butterknife-8.8.1\AndroidManifest.xml:5:5-43
@@ -126,13 +154,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DELL\.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7282e00d74c6a6acf53f4bfd68421266\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\73114719268a97e9fd391905563b2ee9\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\DELL\Downloads\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\steganographer-51ff839c6c84c9b0d7fba1261413062a04743f15\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Downloads\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\steganographer-c3b150f0954e9924b3bc24b81bc2b8f4de384668\app\src\main\AndroidManifest.xml

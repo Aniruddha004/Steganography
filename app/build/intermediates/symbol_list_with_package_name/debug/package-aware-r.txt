@@ -488,6 +488,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen medium_image_square
 dimen medium_text_dim
 dimen notification_action_icon_size
 dimen notification_action_text_size
@@ -686,7 +687,7 @@ id always
 id async
 id bAMDecrypt
 id bAMEncrypt
-id bPerformSteg
+id bEncrypt
 id beginning
 id blocking
 id bottom
@@ -881,13 +882,20 @@ string abc_toolbar_collapse_description
 string app_name
 string b_secret_text_decrypt
 string b_secret_text_encrypt
+string cancel
+string choose_image
+string compress_error
+string encrypted_fail
+string encrypted_success
 string et_secret_text
 string rb_secret_image
 string rb_secret_text
 string search_menu_title
 string secret_message_title
+string select_image_dialog
 string select_image_title
 string status_bar_notification_info_overflow
+string take_image_dialog
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1280,3 +1288,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml provider_paths
