@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   @OnClick(R.id.bAMEncrypt)
-  public void onClickEncrypt() {
+  public void onClickEncrypt(){
     Intent intent = new Intent(MainActivity.this, EncryptActivity.class);
     startActivity(intent);
   }

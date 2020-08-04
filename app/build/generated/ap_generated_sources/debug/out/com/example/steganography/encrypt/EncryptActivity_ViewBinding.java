@@ -26,6 +26,8 @@ public class EncryptActivity_ViewBinding implements Unbinder {
 
   private View view7f070077;
 
+  private View view7f070041;
+
   @UiThread
   public EncryptActivity_ViewBinding(EncryptActivity target) {
     this(target, target.getWindow().getDecorView());
@@ -73,6 +75,14 @@ public class EncryptActivity_ViewBinding implements Unbinder {
         target.onRadioButtonClick();
       }
     });
+    view = Utils.findRequiredView(source, R.id.bEncrypt, "method 'onButtonClick'");
+    view7f070041 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onButtonClick();
+      }
+    });
   }
 
   @Override
@@ -96,5 +106,7 @@ public class EncryptActivity_ViewBinding implements Unbinder {
     view7f070078 = null;
     ((CompoundButton) view7f070077).setOnCheckedChangeListener(null);
     view7f070077 = null;
+    view7f070041.setOnClickListener(null);
+    view7f070041 = null;
   }
 }

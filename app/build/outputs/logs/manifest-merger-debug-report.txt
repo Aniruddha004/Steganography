@@ -73,7 +73,7 @@ ADDED from C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManife
 	android:grantUriPermissions
 		ADDED from C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:21:9-43
 	android:authorities
-		ADDED from C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:19:9-56
+		ADDED from C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:19:9-42
 	android:exported
 		ADDED from C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:20:9-33
 	android:name

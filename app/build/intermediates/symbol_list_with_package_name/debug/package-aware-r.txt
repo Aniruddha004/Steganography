@@ -488,6 +488,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen large_image_square
 dimen medium_image_square
 dimen medium_text_dim
 dimen notification_action_icon_size

@@ -169,6 +169,7 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="large_image_square">200dp</dimen>
     <dimen name="medium_image_square">150dp</dimen>
     <dimen name="medium_text_dim">18sp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
