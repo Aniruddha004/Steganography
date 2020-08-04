@@ -2,12 +2,11 @@ package com.example.steganography.encrypt;
 
 interface EncryptPresenter {
 
-  void selectCoverImage(String path);
-  void selectCoverImageCamera();
+  void selectImage(int type, String path);
 
-  void selectSecretImage(String path);
-  void selectSecretImageCamera();
+  void selectImageCamera(int type);
 
   void encryptText();
+
   void encryptImage();
 }

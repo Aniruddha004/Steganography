@@ -8,7 +8,7 @@
   <string name="rb_secret_image">Image</string>
   <string name="b_secret_text_encrypt">Encrypt</string>
   <string name="b_secret_text_decrypt">Decrypt</string>
-  <string name="et_secret_text">Message&#8230;</string>
+  <string name="et_secret_text">Secret Text&#8230;</string>
   <string name="take_image_dialog">Take Photo</string>
   <string name="select_image_dialog">Select Image</string>
   <string name="cancel">Cancel</string>

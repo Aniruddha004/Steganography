@@ -38,8 +38,8 @@
 24-->C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:17:5-25:16
 25            android:name="androidx.core.content.FileProvider"
 25-->C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:18:9-58
-26            android:authorities="alexparunov"
-26-->C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:19:9-42
+26            android:authorities="com.example.steganography"
+26-->C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:19:9-56
 27            android:exported="false"
 27-->C:\Users\DELL\Desktop\GitHub\Steganography\app\src\main\AndroidManifest.xml:20:9-33
 28            android:grantUriPermissions="true" >

@@ -24,7 +24,7 @@
         <!-- If SDK is >=24 we have to use FileProvider to make change -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="alexparunov"
+            android:authorities="com.example.steganography"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

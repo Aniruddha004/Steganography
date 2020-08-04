@@ -157,8 +157,8 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
 
   @Override
   public void initToolbar() {
-    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-    setSupportActionBar(toolbar);
+//    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//    setSupportActionBar(toolbar);
 
     ActionBar actionBar = getSupportActionBar();
     if (actionBar != null) {
@@ -189,7 +189,7 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
   public void openCamera() {
     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
     File file = new File(android.os.Environment
-      .getExternalStorageDirectory(), "temp.jpg");
+      .getExternalStorageDirectory(), "temp.png");
 
     Uri imageUri = FileProvider.getUriForFile(this, "alexparunov", file);
 
@@ -214,22 +214,15 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
 
     if (resultCode == RESULT_OK) {
       if (requestCode == Constants.REQUEST_CAMERA) {
-        if (whichImage == Constants.COVER_IMAGE) {
-          mPresenter.selectCoverImageCamera();
-        } else if (whichImage == Constants.SECRET_IMAGE) {
-          mPresenter.selectSecretImageCamera();
-        }
+        mPresenter.selectImageCamera(whichImage);
       } else if (requestCode == Constants.SELECT_FILE) {
         Uri selectedImageUri = data.getData();
         String tempPath = getPath(selectedImageUri, EncryptActivity.this);
-        if (whichImage == Constants.COVER_IMAGE) {
-          mPresenter.selectCoverImage(tempPath);
-        } else if (whichImage == Constants.SECRET_IMAGE) {
-          mPresenter.selectSecretImage(tempPath);
-        }
+        mPresenter.selectImage(whichImage, tempPath);
       }
     }
   }
+
 
   public String getPath(Uri uri, Activity activity) {
     String[] projection = {MediaStore.MediaColumns.DATA};
