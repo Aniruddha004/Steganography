@@ -790,6 +790,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id unchecked
@@ -885,12 +886,14 @@ string b_secret_text_encrypt
 string cancel
 string choose_image
 string compress_error
+string cover_image_empty
 string encrypted_fail
 string encrypted_success
 string et_secret_text
 string rb_secret_image
 string rb_secret_text
 string search_menu_title
+string secret_image_empty
 string secret_message_title
 string select_image_dialog
 string select_image_title

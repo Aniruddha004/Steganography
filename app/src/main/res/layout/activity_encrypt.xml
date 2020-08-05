@@ -7,34 +7,29 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1B1A1A"
-    android:layout_gravity="center"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".encrypt.EncryptActivity">
 
-<!--  <androidx.appcompat.widget.Toolbar-->
-<!--      android:id="@+id/toolbar"-->
-<!--      android:minHeight="?attr/actionBarSize"-->
-<!--      android:layout_width="match_parent"-->
-<!--      android:layout_height="wrap_content"-->
-<!--      android:background="?attr/colorPrimary"-->
-<!--      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
-<!--  </androidx.appcompat.widget.Toolbar>-->
-
-  <LinearLayout
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:minHeight="?attr/actionBarSize"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:orientation="vertical"
-      android:layout_marginTop="50sp"
-      android:layout_gravity="center"
-      android:paddingTop="@dimen/activity_vertical_margin">
+      android:layout_height="wrap_content"
+      android:background="?attr/colorPrimary"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+  </androidx.appcompat.widget.Toolbar>
+
+  <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/activity_vertical_margin">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/select_image_title"
         android:textSize="@dimen/medium_text_dim"
-        android:textColor="#ffffff"
         android:layout_gravity="center"/>
 
     <ImageView
@@ -50,7 +45,6 @@
         android:layout_height="wrap_content"
         android:text="@string/secret_message_title"
         android:textSize="@dimen/medium_text_dim"
-        android:textColor="#ffffff"
         android:layout_gravity="center"/>
 
     <RadioGroup
@@ -63,14 +57,12 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="@string/rb_secret_text"
-          android:textColor="#ffffff"
           android:checked="true"/>
 
       <RadioButton
           android:id="@+id/rbImage"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:textColor="#ffffff"
           android:text="@string/rb_secret_image"/>
     </RadioGroup>
 
@@ -80,7 +72,6 @@
         android:inputType="textMultiLine"
         android:ems="10"
         android:hint="@string/et_secret_text"
-        android:textColor="#ffffff"
         android:id="@+id/etSecretMessage"/>
 
     <ImageView
@@ -96,8 +87,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#ffffff"
-        android:textSize="15sp"
         android:id="@+id/bEncrypt"/>
 
   </LinearLayout>
