@@ -151,6 +151,7 @@
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_stego_top_padding">100dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="big_text_dim">30sp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
@@ -288,6 +289,7 @@
     <string name="app_name">Steganography App</string>
     <string name="b_secret_text_decrypt">Decrypt</string>
     <string name="b_secret_text_encrypt">Encrypt</string>
+    <string name="b_stego_image_share">Share</string>
     <string name="cancel">Cancel</string>
     <string name="choose_image">Choose Image</string>
     <string name="compress_error">Failure during image compression</string>
@@ -304,6 +306,7 @@
     <string name="select_image_dialog">Select Image</string>
     <string name="select_image_title">Cover Image</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stego_image_title">Result Image</string>
     <string name="take_image_dialog">Take Photo</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

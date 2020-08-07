@@ -470,6 +470,7 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_horizontal_margin
+dimen activity_stego_top_padding
 dimen activity_vertical_margin
 dimen big_text_dim
 dimen compat_button_inset_horizontal_material
@@ -681,7 +682,9 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
+id activity_encrypt
 id activity_main
+id activity_stego
 id add
 id alertTitle
 id always
@@ -689,6 +692,7 @@ id async
 id bAMDecrypt
 id bAMEncrypt
 id bEncrypt
+id bStegoAct
 id beginning
 id blocking
 id bottom
@@ -723,6 +727,7 @@ id info
 id italic
 id ivCoverImage
 id ivSecretImage
+id ivStegoImage
 id line1
 id line3
 id listMode
@@ -786,6 +791,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -841,6 +847,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_encrypt
 layout activity_main
+layout activity_stego
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -883,6 +890,7 @@ string abc_toolbar_collapse_description
 string app_name
 string b_secret_text_decrypt
 string b_secret_text_encrypt
+string b_stego_image_share
 string cancel
 string choose_image
 string compress_error
@@ -899,6 +907,7 @@ string secret_message_title
 string select_image_dialog
 string select_image_title
 string status_bar_notification_info_overflow
+string stego_image_title
 string take_image_dialog
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

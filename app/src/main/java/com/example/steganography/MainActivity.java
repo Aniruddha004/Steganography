@@ -4,7 +4,7 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.steganography.encrypt.EncryptActivity;
+import com.example.steganography.activities.encrypt.EncryptActivity;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 

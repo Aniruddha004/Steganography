@@ -28,6 +28,10 @@
         "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stego.xml.flat",
+        "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\layout\\activity_stego.xml"
+    },
+    {
         "merged": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\DELL\\Desktop\\GitHub\\Steganography\\app\\src\\main\\res\\layout\\activity_main.xml"
     }

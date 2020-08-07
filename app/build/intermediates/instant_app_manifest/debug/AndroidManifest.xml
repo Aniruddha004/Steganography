@@ -43,8 +43,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.steganography.encrypt.EncryptActivity"
+            android:name="com.example.steganography.activities.encrypt.EncryptActivity"
             android:parentActivityName="com.example.steganography.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.steganography.activities.stego.StegoActivity"
+            android:parentActivityName="com.example.steganography.activities.encrypt.EncryptActivity"
             android:screenOrientation="portrait" >
         </activity>
     </application>
