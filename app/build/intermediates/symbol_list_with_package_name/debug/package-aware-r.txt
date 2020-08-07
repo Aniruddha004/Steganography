@@ -894,6 +894,7 @@ string rb_secret_image
 string rb_secret_text
 string search_menu_title
 string secret_image_empty
+string secret_message_long
 string secret_message_title
 string select_image_dialog
 string select_image_title

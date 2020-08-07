@@ -2,9 +2,8 @@ package com.example.steganography.encrypt;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 
-import com.example.steganography.utils.HelperMethods;
+import com.example.steganography.algorithms.Embedding;
 
 public class EncryptInteractorImpl implements EncryptInteractor {
 
@@ -26,16 +25,21 @@ public class EncryptInteractorImpl implements EncryptInteractor {
   }
 
   private void encryptSecretMessage(String message, Bitmap coverImage) {
-
+    Bitmap stegoImage = Embedding.embedSecretText(message, coverImage);
+    if (stegoImage != null) {
+      listener.onPerformSteganographySuccessful(stegoImage);
+    } else {
+      listener.onPerformSteganographyFailure();
+    }
   }
 
   private void encryptSecretImage(Bitmap coverImage, Bitmap secretImage) {
-    byte[] coverImageInBytes = HelperMethods.bitmapToByArray(coverImage);
+    Embedding.embedSecretImage(coverImage, secretImage);
   }
 
   interface EncryptInteractorListener {
 
-    void onPerformSteganographySuccessful();
+    void onPerformSteganographySuccessful(Bitmap stegoImage);
 
     void onPerformSteganographyFailure();
   }

@@ -285,7 +285,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">CryptoMessenger</string>
+    <string name="app_name">Steganography App</string>
     <string name="b_secret_text_decrypt">Decrypt</string>
     <string name="b_secret_text_encrypt">Encrypt</string>
     <string name="cancel">Cancel</string>
@@ -299,6 +299,7 @@
     <string name="rb_secret_text">Text</string>
     <string name="search_menu_title">Search</string>
     <string name="secret_image_empty">Please, select secret image</string>
+    <string name="secret_message_long">Secret message is too long</string>
     <string name="secret_message_title">Secret Message Type</string>
     <string name="select_image_dialog">Select Image</string>
     <string name="select_image_title">Cover Image</string>

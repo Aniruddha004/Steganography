@@ -893,11 +893,12 @@ int string rb_secret_image 0x7f0c0025
 int string rb_secret_text 0x7f0c0026
 int string search_menu_title 0x7f0c0027
 int string secret_image_empty 0x7f0c0028
-int string secret_message_title 0x7f0c0029
-int string select_image_dialog 0x7f0c002a
-int string select_image_title 0x7f0c002b
-int string status_bar_notification_info_overflow 0x7f0c002c
-int string take_image_dialog 0x7f0c002d
+int string secret_message_long 0x7f0c0029
+int string secret_message_title 0x7f0c002a
+int string select_image_dialog 0x7f0c002b
+int string select_image_title 0x7f0c002c
+int string status_bar_notification_info_overflow 0x7f0c002d
+int string take_image_dialog 0x7f0c002e
 int style AlertDialog_AppCompat 0x7f0d0000
 int style AlertDialog_AppCompat_Light 0x7f0d0001
 int style Animation_AppCompat_Dialog 0x7f0d0002
