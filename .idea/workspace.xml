@@ -93,6 +93,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1fm20pcZg8f1k7IzK6UtOVinOxy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -227,16 +228,36 @@
       <option name="presentableId" value="Default" />
       <updated>1596808778331</updated>
     </task>
+    <task id="LOCAL-00001" summary="added embedSecretImage and embedSecretText methods">
+      <created>1596812997039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596812997070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added embedSecretImage and embedSecretText methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added embedSecretImage and embedSecretText methods" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1596812299379">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1596812788529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596812299379" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596812788529" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596813104338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596813104338" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596808867169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596808867169" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596813258965">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596813258965" />
   </component>
 </project>
