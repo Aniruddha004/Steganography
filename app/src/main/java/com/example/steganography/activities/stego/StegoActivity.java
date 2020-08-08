@@ -7,13 +7,27 @@ import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.steganography.R;
 import com.example.steganography.utils.Constants;
 import com.example.steganography.utils.HelperMethods;
 import com.example.steganography.utils.StandardMethods;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class StegoActivity extends AppCompatActivity implements StegoView {
+
+
+  @BindView(R.id.ivStegoImage)
+  ImageView ivStegoImage;
+
+  @OnClick({R.id.bStegoSave, R.id.bStegoShare})
+  public void onClick(View view) {
+    //(TODO) Implement onClick
+  }
 
 
   private ProgressDialog progressDialog;
@@ -24,11 +38,14 @@ public class StegoActivity extends AppCompatActivity implements StegoView {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_stego);
 
+    ButterKnife.bind(this);
+
     Intent intent = getIntent();
     if (intent != null) {
       byte[] byteArrayExtra = intent.getByteArrayExtra(Constants.EXTRA_STEGO_IMAGE_ARRAY);
       stegoImage = HelperMethods.byteArrayToBitmap(byteArrayExtra);
       setStegoImage(stegoImage);
+      ivStegoImage.setImageBitmap(stegoImage);
     }
 
     initToolbar();
