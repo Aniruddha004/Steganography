@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Steganography.iml" filepath="$PROJECT_DIR$/.idea/modules/Steganography.iml" group="Steganography" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Steganography-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Steganography-app.iml" group="Steganography/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cryptomessenger.iml" filepath="$PROJECT_DIR$/cryptomessenger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb.iml" filepath="$PROJECT_DIR$/.idea/modules/steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb.iml" group="steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb-app.iml" group="steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb/app" />
     </modules>
   </component>
 </project>
