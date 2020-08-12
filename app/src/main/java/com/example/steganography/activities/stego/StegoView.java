@@ -1,5 +1,8 @@
 package com.example.steganography.activities.stego;
 
+/**
+ * Created by Alexander Parunov on 2/21/17.
+ */
 
 interface StegoView {
 

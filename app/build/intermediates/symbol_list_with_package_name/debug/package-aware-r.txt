@@ -842,8 +842,11 @@ string cover_image_empty
 string encrypted_fail
 string encrypted_success
 string et_secret_text
+string image_is_saved
 string rb_secret_image
 string rb_secret_text
+string save_image_error
+string save_image_success
 string search_menu_title
 string secret_image_empty
 string secret_message_long
