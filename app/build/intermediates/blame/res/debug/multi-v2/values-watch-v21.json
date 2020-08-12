@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\bf96d2b5a86ecd602a621e7e96856420\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4458c9c05cd1e45f3462845bbb5f6a7c\\appcompat-1.0.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

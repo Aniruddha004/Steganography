@@ -34,7 +34,6 @@ import java.io.File;
 import com.example.steganography.R;
 import com.example.steganography.activities.stego.StegoActivity;
 import com.example.steganography.utils.Constants;
-import com.example.steganography.utils.HelperMethods;
 import com.example.steganography.utils.StandardMethods;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -235,10 +234,9 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
   }
 
   @Override
-  public void startStegoActivity(Bitmap stegoImage) {
+  public void startStegoActivity(String filePath) {
     Intent intent = new Intent(EncryptActivity.this, StegoActivity.class);
-    byte[] stegoImageInBytes = HelperMethods.bitmapToByteArray(stegoImage);
-    intent.putExtra(Constants.EXTRA_STEGO_IMAGE_ARRAY, stegoImageInBytes);
+    intent.putExtra(Constants.EXTRA_STEGO_IMAGE_PATH, filePath);
     startActivity(intent);
   }
 

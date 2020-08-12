@@ -13,9 +13,9 @@ import java.lang.Override;
 public class MainActivity_ViewBinding implements Unbinder {
   private MainActivity target;
 
-  private View view7f070042;
+  private View view7f070022;
 
-  private View view7f070041;
+  private View view7f070021;
 
   @UiThread
   public MainActivity_ViewBinding(MainActivity target) {
@@ -28,7 +28,7 @@ public class MainActivity_ViewBinding implements Unbinder {
 
     View view;
     view = Utils.findRequiredView(source, R.id.bAMEncrypt, "method 'onClickEncrypt'");
-    view7f070042 = view;
+    view7f070022 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -36,7 +36,7 @@ public class MainActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.bAMDecrypt, "method 'onClickDecrypt'");
-    view7f070041 = view;
+    view7f070021 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -52,9 +52,9 @@ public class MainActivity_ViewBinding implements Unbinder {
     target = null;
 
 
-    view7f070042.setOnClickListener(null);
-    view7f070042 = null;
-    view7f070041.setOnClickListener(null);
-    view7f070041 = null;
+    view7f070022.setOnClickListener(null);
+    view7f070022 = null;
+    view7f070021.setOnClickListener(null);
+    view7f070021 = null;
   }
 }

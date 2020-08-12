@@ -1,38 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\xml\\provider_paths.xml"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stego.xml.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\layout\\activity_stego.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_encrypt.xml.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\layout\\activity_encrypt.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_encrypt.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\layout\\activity_encrypt.xml"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stego.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\layout\\activity_stego.xml"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

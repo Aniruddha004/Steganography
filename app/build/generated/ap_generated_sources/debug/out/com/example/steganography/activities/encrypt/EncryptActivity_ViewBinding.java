@@ -18,15 +18,15 @@ import java.lang.Override;
 public class EncryptActivity_ViewBinding implements Unbinder {
   private EncryptActivity target;
 
-  private View view7f070066;
+  private View view7f07004b;
 
-  private View view7f070067;
+  private View view7f07004c;
 
-  private View view7f07007d;
+  private View view7f070061;
 
-  private View view7f07007c;
+  private View view7f070060;
 
-  private View view7f070043;
+  private View view7f070023;
 
   @UiThread
   public EncryptActivity_ViewBinding(EncryptActivity target) {
@@ -41,7 +41,7 @@ public class EncryptActivity_ViewBinding implements Unbinder {
     target.etSecretMessage = Utils.findRequiredViewAsType(source, R.id.etSecretMessage, "field 'etSecretMessage'", EditText.class);
     view = Utils.findRequiredView(source, R.id.ivCoverImage, "field 'ivCoverImage' and method 'onCoverSecretImageClick'");
     target.ivCoverImage = Utils.castView(view, R.id.ivCoverImage, "field 'ivCoverImage'", ImageView.class);
-    view7f070066 = view;
+    view7f07004b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -50,7 +50,7 @@ public class EncryptActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.ivSecretImage, "field 'ivSecretImage' and method 'onCoverSecretImageClick'");
     target.ivSecretImage = Utils.castView(view, R.id.ivSecretImage, "field 'ivSecretImage'", ImageView.class);
-    view7f070067 = view;
+    view7f07004c = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -59,7 +59,7 @@ public class EncryptActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.rbText, "field 'rbText' and method 'onRadioButtonClick'");
     target.rbText = Utils.castView(view, R.id.rbText, "field 'rbText'", RadioButton.class);
-    view7f07007d = view;
+    view7f070061 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -68,7 +68,7 @@ public class EncryptActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.rbImage, "field 'rbImage' and method 'onRadioButtonClick'");
     target.rbImage = Utils.castView(view, R.id.rbImage, "field 'rbImage'", RadioButton.class);
-    view7f07007c = view;
+    view7f070060 = view;
     ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
       @Override
       public void onCheckedChanged(CompoundButton p0, boolean p1) {
@@ -76,7 +76,7 @@ public class EncryptActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.bEncrypt, "method 'onButtonClick'");
-    view7f070043 = view;
+    view7f070023 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -98,15 +98,15 @@ public class EncryptActivity_ViewBinding implements Unbinder {
     target.rbText = null;
     target.rbImage = null;
 
-    view7f070066.setOnClickListener(null);
-    view7f070066 = null;
-    view7f070067.setOnClickListener(null);
-    view7f070067 = null;
-    ((CompoundButton) view7f07007d).setOnCheckedChangeListener(null);
-    view7f07007d = null;
-    ((CompoundButton) view7f07007c).setOnCheckedChangeListener(null);
-    view7f07007c = null;
-    view7f070043.setOnClickListener(null);
-    view7f070043 = null;
+    view7f07004b.setOnClickListener(null);
+    view7f07004b = null;
+    view7f07004c.setOnClickListener(null);
+    view7f07004c = null;
+    ((CompoundButton) view7f070061).setOnCheckedChangeListener(null);
+    view7f070061 = null;
+    ((CompoundButton) view7f070060).setOnCheckedChangeListener(null);
+    view7f070060 = null;
+    view7f070023.setOnClickListener(null);
+    view7f070023 = null;
   }
 }

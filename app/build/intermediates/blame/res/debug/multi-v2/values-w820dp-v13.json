@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\Downloads\\steganographer-7eeff0543ddd77c2ebe136a4473c79b83369ceb8\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\DELL\\Downloads\\steganographer-3dd63d702bf271a9eb3d555e43e16df78caddbeb\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "2",
