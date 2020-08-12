@@ -227,7 +227,8 @@ public class EncryptActivity extends AppCompatActivity implements EncryptView {
 
   public String getPath(Uri uri, Activity activity) {
     String[] projection = {MediaStore.MediaColumns.DATA};
-    Cursor cursor = activity.managedQuery(uri, projection, null, null, null);
+    Cursor cursor = getContentResolver().query(uri, projection, null, null, null);
+    assert cursor != null;
     int column_index = cursor.getColumnIndexOrThrow(MediaStore.MediaColumns.DATA);
     cursor.moveToFirst();
     return cursor.getString(column_index);

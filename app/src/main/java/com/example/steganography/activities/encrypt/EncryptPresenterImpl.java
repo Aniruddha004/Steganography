@@ -34,8 +34,12 @@ class EncryptPresenterImpl implements EncryptPresenter, EncryptInteractorImpl.En
     int IMAGE_SIZE = 600;
 
     BitmapFactory.Options bitmapOptions = new BitmapFactory.Options();
-    bitmapOptions.inPreferredConfig = Bitmap.Config.RGB_565;
-    bitmapOptions.inScaled = false;
+//    bitmapOptions.inPreferredConfig = Bitmap.Config.RGB_565;
+//    bitmapOptions.inScaled = false;
+//    Bitmap bitmap = BitmapFactory.decodeFile(tempPath, bitmapOptions);
+
+    BitmapFactory.Options options = new BitmapFactory.Options();
+    options.inPreferredConfig = Bitmap.Config.ARGB_8888;
     Bitmap bitmap = BitmapFactory.decodeFile(tempPath, bitmapOptions);
 
     int dimension = Math.min(bitmap.getWidth(), bitmap.getHeight());
@@ -81,7 +85,9 @@ class EncryptPresenterImpl implements EncryptPresenter, EncryptInteractorImpl.En
     }
 
     BitmapFactory.Options bitmapOptions = new BitmapFactory.Options();
-    bitmapOptions.inPreferredConfig = Bitmap.Config.RGB_565;
+//    bitmapOptions.inPreferredConfig = Bitmap.Config.RGB_565;
+//    BitmapFactory.Options options = new BitmapFactory.Options();
+    bitmapOptions.inPreferredConfig = Bitmap.Config.ARGB_8888;
     bitmapOptions.inScaled = false;
     Bitmap bitmap = BitmapFactory.decodeFile(file.getAbsolutePath(), bitmapOptions);
     file.delete();
