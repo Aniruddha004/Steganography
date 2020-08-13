@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.steganography">
 
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
   <application
       android:allowBackup="true"
@@ -16,7 +15,7 @@
     <!-- If SDK is >=24 we have to use FileProvider to make change -->
     <provider
         android:name="androidx.core.content.FileProvider"
-        android:authorities="com.example.steganography"
+        android:authorities="alexparunov"
         android:exported="false"
         android:grantUriPermissions="true">
       <meta-data

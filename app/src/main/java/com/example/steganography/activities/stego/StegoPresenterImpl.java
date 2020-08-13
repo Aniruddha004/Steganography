@@ -13,6 +13,7 @@ import java.io.OutputStream;
 import com.example.steganography.R;
 import com.example.steganography.utils.StandardMethods;
 
+
 public class StegoPresenterImpl implements StegoPresenter {
 
   private StegoView mView;

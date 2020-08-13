@@ -290,7 +290,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">Steganography App</string>
+    <string name="app_name">CryptoMessenger</string>
     <string name="b_secret_text_decrypt">Decrypt</string>
     <string name="b_secret_text_encrypt">Encrypt</string>
     <string name="b_stego_image_save">Save</string>

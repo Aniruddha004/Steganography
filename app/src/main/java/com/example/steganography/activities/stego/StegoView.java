@@ -1,5 +1,7 @@
 package com.example.steganography.activities.stego;
 
+
+
 interface StegoView {
 
   void showToast(int message);
