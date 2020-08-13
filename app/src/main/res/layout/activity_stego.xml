@@ -18,11 +18,12 @@
       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
   </androidx.appcompat.widget.Toolbar>
 
-  <LinearLayout android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_gravity="center"
-                android:paddingTop="@dimen/activity_stego_top_padding">
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="center"
+      android:paddingTop="@dimen/activity_stego_top_padding">
 
     <TextView
         android:text="@string/stego_image_title"
