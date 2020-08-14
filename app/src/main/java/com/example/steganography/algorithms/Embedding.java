@@ -15,7 +15,6 @@ public class Embedding {
     Bitmap stegoImage = Bitmap.createBitmap(coverImage);
 
     String sImageInBin = HelperMethods.bitmapToBinaryStream(secretImage);
-
     int secretImageLen = sImageInBin.length();
     int action, embImPos = 0, keyPos = 0;
 
@@ -95,7 +94,7 @@ public class Embedding {
     Bitmap stegoImage = Bitmap.createBitmap(coverImage);
 
     String sTextInBin = HelperMethods.stringToBinaryStream(secretText);
-
+    
     int secretMessageLen = sTextInBin.length();
     int action, embMesPos = 0, keyPos = 0;
 

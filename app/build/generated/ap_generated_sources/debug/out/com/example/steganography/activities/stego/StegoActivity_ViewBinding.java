@@ -15,9 +15,9 @@ import java.lang.Override;
 public class StegoActivity_ViewBinding implements Unbinder {
   private StegoActivity target;
 
-  private View view7f070044;
-
   private View view7f070045;
+
+  private View view7f070046;
 
   @UiThread
   public StegoActivity_ViewBinding(StegoActivity target) {
@@ -31,7 +31,7 @@ public class StegoActivity_ViewBinding implements Unbinder {
     View view;
     target.ivStegoImage = Utils.findRequiredViewAsType(source, R.id.ivStegoImage, "field 'ivStegoImage'", ImageView.class);
     view = Utils.findRequiredView(source, R.id.bStegoSave, "method 'onClick'");
-    view7f070044 = view;
+    view7f070045 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -39,7 +39,7 @@ public class StegoActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.bStegoShare, "method 'onClick'");
-    view7f070045 = view;
+    view7f070046 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,9 +57,9 @@ public class StegoActivity_ViewBinding implements Unbinder {
 
     target.ivStegoImage = null;
 
-    view7f070044.setOnClickListener(null);
-    view7f070044 = null;
     view7f070045.setOnClickListener(null);
     view7f070045 = null;
+    view7f070046.setOnClickListener(null);
+    view7f070046 = null;
   }
 }

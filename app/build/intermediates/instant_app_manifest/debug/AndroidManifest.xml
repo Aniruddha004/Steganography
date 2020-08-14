@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="26"
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -25,7 +25,7 @@
         <!-- If SDK is >=24 we have to use FileProvider to make change -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="alexparunov"
+            android:authorities="com.example.steganography"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -51,6 +51,8 @@
             android:name="com.example.steganography.activities.stego.StegoActivity"
             android:parentActivityName="com.example.steganography.activities.encrypt.EncryptActivity"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.example.steganography.activities.decrypt.DecryptActivity" >
         </activity>
     </application>
 
