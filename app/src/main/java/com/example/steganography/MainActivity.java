@@ -12,14 +12,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-
-    ButterKnife.bind(this);
-  }
-
   @OnClick({R.id.bAMEncrypt, R.id.bAMDecrypt})
   public void onButtonClick(View view) {
     if(view.getId() == R.id.bAMEncrypt) {
@@ -31,5 +23,11 @@ public class MainActivity extends AppCompatActivity {
     }
   }
 
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
 
+    ButterKnife.bind(this);
+  }
 }

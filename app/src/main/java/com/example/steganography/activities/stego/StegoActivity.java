@@ -114,4 +114,9 @@ public class StegoActivity extends AppCompatActivity implements StegoView {
       progressDialog.dismiss();
     }
   }
+
+  @Override
+  public void saveToMedia(Intent intent) {
+    sendBroadcast(intent);
+  }
 }

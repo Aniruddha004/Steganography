@@ -3,7 +3,6 @@
           package="com.example.steganography">
 
   <uses-permission android:name="android.permission.CAMERA"/>
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
   <application
@@ -16,7 +15,7 @@
     <!-- If SDK is >=24 we have to use FileProvider to make change -->
     <provider
         android:name="androidx.core.content.FileProvider"
-        android:authorities="com.example.FileProvider"
+        android:authorities="alexparunov"
         android:exported="false"
         android:grantUriPermissions="true">
       <meta-data

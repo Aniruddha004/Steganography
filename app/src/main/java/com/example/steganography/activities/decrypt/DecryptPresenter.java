@@ -1,6 +1,7 @@
 package com.example.steganography.activities.decrypt;
 
-public interface DecryptPresenter {
+
+interface DecryptPresenter {
 
   void selectImage(String path);
 
