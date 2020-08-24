@@ -14,8 +14,8 @@
 
     <!-- If SDK is >=24 we have to use FileProvider to make change -->
     <provider
-        android:name="androidx.core.content.FileProvider"
-        android:authorities="alexparunov"
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="com.example.FileProvider"
         android:exported="false"
         android:grantUriPermissions="true">
       <meta-data

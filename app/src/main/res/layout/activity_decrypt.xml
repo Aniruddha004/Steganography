@@ -7,16 +7,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context=".activities.decrypt.DecryptActivity">
+    tools:context="alexparunov.cryptomessenger.activities.decrypt.DecryptActivity">
 
-  <androidx.appcompat.widget.Toolbar
+  <android.support.v7.widget.Toolbar
       android:id="@+id/toolbar"
       android:minHeight="?attr/actionBarSize"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:background="?attr/colorPrimary"
       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-  </androidx.appcompat.widget.Toolbar>
+  </android.support.v7.widget.Toolbar>
 
   <RelativeLayout
       android:layout_width="match_parent"

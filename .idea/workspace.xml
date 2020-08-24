@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a863b321-241f-4975-8862-ca1e869b5269" name="Default Changelist" comment="" />
+    <list default="true" id="e5517f5a-7fbb-476a-a074-481cfacdf7f1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,7 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1gUZp11LJu21swqbbuWLyc9q0jh" />
+  <component name="ProjectId" id="1gXoqq9Lr0XoaO2QNbeOvRYwdqk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -33,9 +33,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -46,8 +43,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="steganographer-afc41fd580e34f42f0360f7019b21efa5cd8d6b2-app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="steganographer-afc41fd580e34f42f0360f7019b21efa5cd8d6b2-app" />
+    <configuration name="steganographer-f50d6489752796304bcba74f37076dcf9cdcb727-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="steganographer-f50d6489752796304bcba74f37076dcf9cdcb727-app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -103,22 +100,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a863b321-241f-4975-8862-ca1e869b5269" name="Default Changelist" comment="" />
-      <created>1598171319337</created>
+      <changelist id="e5517f5a-7fbb-476a-a074-481cfacdf7f1" name="Default Changelist" comment="" />
+      <created>1598270501894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598171319337</updated>
+      <updated>1598270501894</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="#PSD" timestamp="1598268308289">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598270523882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1598268308289" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598264318943">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598264318943" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598270523882" />
   </component>
 </project>

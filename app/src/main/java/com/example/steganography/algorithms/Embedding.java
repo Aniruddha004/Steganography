@@ -1,12 +1,16 @@
 package com.example.steganography.algorithms;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
+import android.util.Log;
 
 import java.util.Random;
 
+import com.example.steganography.utils.Constants;
 import com.example.steganography.utils.HelperMethods;
+import com.example.steganography.utils.StandardMethods;
 
 public class Embedding {
 
@@ -47,13 +51,17 @@ public class Embedding {
       blue_sum += (int) Math.pow(key[i]*2,12-i);
     }
 
-    int keyPixel = Color.rgb(red_sum,green_sum,blue_sum);
-    stegoImage.setPixel(0,0,keyPixel);
-    int endX = 0, endY = 1;
+    stegoImage.setPixel(0,0,Color.rgb(red_sum,green_sum,blue_sum));
+
+    //To check if secret message is image
+    stegoImage.setPixel(0,1, Color.rgb(Constants.COLOR_RGB_IMAGE,
+                             Constants.COLOR_RGB_IMAGE,
+                             Constants.COLOR_RGB_IMAGE));
+    int endX = 0, endY = 2;
 
     outerloop:
     for (int x = 0; x < width; x++) {
-      for (int y = 1; y < height; y++) {
+      for (int y = 2; y < height; y++) {
         int pixel = coverImage.getPixel(x, y);
 
         if (embImPos < secretImageLen) {
@@ -94,7 +102,9 @@ public class Embedding {
     }
 
     //End of secret message flag
-    stegoImage.setPixel(endX, endY, Color.rgb(0,0,0));
+    stegoImage.setPixel(endX, endY, Color.rgb(Constants.COLOR_RGB_END,
+                                    Constants.COLOR_RGB_END,
+                                    Constants.COLOR_RGB_END));
 
     return stegoImage;
   }
@@ -138,7 +148,11 @@ public class Embedding {
     }
 
     stegoImage.setPixel(0,0, Color.rgb(red_sum,green_sum,blue_sum));
-    stegoImage.setPixel(0,1, Color.rgb(0,0,0)); //to check if secret message is text
+
+    //To check if secret message is text
+    stegoImage.setPixel(0,1, Color.rgb(Constants.COLOR_RGB_TEXT,
+                                       Constants.COLOR_RGB_TEXT,
+                                       Constants.COLOR_RGB_TEXT));
     int endX = 0, endY = 2;
 
     outerloop:
@@ -184,7 +198,9 @@ public class Embedding {
     }
 
     //End of secret message flag
-    stegoImage.setPixel(endX, endY, Color.rgb(0,0,0));
+    stegoImage.setPixel(endX, endY, Color.rgb(Constants.COLOR_RGB_END,
+                                    Constants.COLOR_RGB_END,
+                                    Constants.COLOR_RGB_END));
     return stegoImage;
   }
 
